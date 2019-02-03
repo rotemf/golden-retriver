@@ -7,12 +7,20 @@ text-align: justify;
 font-size: 22px;
 letter-spacing: 0.2px;
 display: block;
+margin: 0;
 
 }
 
+div.article {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+
 div.image {
-    width: 67.5%;
-    max-width: 67.5%;
+    max-width: 100%;
     min-width: 10%;
 }
 
@@ -22,10 +30,6 @@ h1 {
     color: orange;
     text-decoration: underline;
     
-    margin-top: 30px;
-    margin-bottom: 5px;
-    margin-left: 50px;
-    margin-right: 120px;
 
     
 }
@@ -35,10 +39,6 @@ div.title {
     font-weight: bold;
     font-size: 30px;
 
-    margin-top: 50px;
-    margin-bottom: 0px;
-    margin-left: 50px;
-    margin-right: 120px;
 
 }
 
@@ -46,26 +46,26 @@ div.title {
 div.paragraph {
     font-weight: normal; 
     width: 800px;
+    border-right: 8px solid orange;
+    padding-right: 8%;
+    margin-right: -10%;
     
-    margin-top: 0px;
-    margin-bottom: 20px;
-    margin-left: 50px;
-    margin-right: 120px; 
+    
 }
 
 div.galery {
-width: 200px;
-height: 200px;
 
-margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 50px;
-    margin-right: 120px;
+
 
 }
 
+img {
+    width: 100%;
+}
 
-
+div.galery img {
+    width: 20%;
+}
 
 
     
